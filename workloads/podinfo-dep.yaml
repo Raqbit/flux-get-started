@@ -58,6 +58,8 @@ spec:
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
+        - name: PODINFO_UI_MESSAGE
+          value: "This is a test by Raqbit"
         livenessProbe:
           httpGet:
             path: /healthz
